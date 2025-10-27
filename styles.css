@@ -24,13 +24,19 @@ body{
 }
 
 .latest-news-section{
-	width:20%;
+	text-align:center;
+	width:45%;
+	max-height:150px;
 }
 .main-article{
-	width:50%;
+	text-align:center;
+	width:45%;
+	max-height:300px;
 }
 .pictorial-news-section{
-	width:25%;
+	text-align:center;
+	width:45%;
+	max-height:400px;
 }
 .pictorial-news-section img{
 	width:100%;

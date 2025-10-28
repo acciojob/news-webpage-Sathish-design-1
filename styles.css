@@ -1,49 +1,81 @@
 /*  your css code here. If applicable */
-body{
-	background-color:#f5f5f5;
-	margin:0;
-	padding:0;
-}
-.header{
-	background-color:#011e29;
-	color:#fff;
-	padding:15px;
-	text-align:center;
-}
-.container{
-	display:flex;
-	justify-content:space-between;
-	align-items:top;
-	padding:20px;
-}
-.latest-news-section, .main-article , .pictorial-news-section{
-	background:white;
-	margin:10px;
-	padding:15px;
-	border-radius:5px;
+/* Background for body */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.latest-news-section{
-	text-align:center;
-	width:45%;
-	max-height:150px;
-}
-.main-article{
-	text-align:center;
-	width:45%;
-	max-height:300px;
-}
-.pictorial-news-section{
-	text-align:center;
-	width:45%;
-	max-height:400px;
-}
-.pictorial-news-section img{
-	width:100%;
-	margin:10px 0;
-	border-radius:5px;
+/* Header section */
+.header {
+  background-color: #011e29;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
 }
 
+/* Main container layout (3 columns) */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  gap: 20px;
+}
+
+/* Latest News Section */
+.latest-news-section {
+  background-color: white;
+  padding: 10px;
+  width: 25%;
+  border-radius: 5px;
+}
+
+.latest-news-section h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.latest-news-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Main Article Section */
+.main-article-section {
+  background-color: white;
+  padding: 10px;
+  width: 45%;
+  border-radius: 5px;
+}
+
+.main-article-section h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Pictorial News Section */
+.pictorial-news-section {
+  background-color: white;
+  padding: 10px;
+  width: 25%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pictorial-news-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.pictorial-news-section img {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
 
 
 
